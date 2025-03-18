@@ -2,7 +2,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { algorithms } from '@/lib/algorithms';
+import { algorithms } from '../lib/algorithms';
 
 export default function CryptographyTool() {
   const [selectedAlgorithm, setSelectedAlgorithm] = useState('caesar');
